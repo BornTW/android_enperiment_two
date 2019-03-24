@@ -1,0 +1,15 @@
+package com.example.test1;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class TestActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //setContentView(R.layout.layouttest1);
+        //setContentView(R.layout.layoutabletest1);
+        setContentView(R.layout.layoutconstaint1);
+    }
+}
