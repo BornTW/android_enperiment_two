@@ -15,7 +15,12 @@
   ![约束布局图片](https://github.com/BornTW/android_enperiment_two/blob/master/Images/android_enteriment2_3.png)
  
 ### 三、表格布局：
-    Tablelayout类以行和列的形式对控件进行管理，每一行为一个TableRow对象，或一个View控件。当为TableRow对象时，可在TableRow下添加子控件，默认情况下，每个子控件占据一列。当为View时，该View将独占一行。
+   TableLayout是指将子元素的位置分配到行或列中。Android的一个TableLayout有许多TableRow组成，每一个TableRow都会定义一个Row。TableLayout容器不会显示Row，Column，及Cell的边框线，每个Row拥有0个或多个Cell，每个Cell拥有一个View对象。
  
  ### 利用表格布局实现如下界面：
 ![约束布局图片](https://github.com/BornTW/android_enperiment_two/blob/master/Images/android_enteriment2_2.png)
+
+
+
+
+      
